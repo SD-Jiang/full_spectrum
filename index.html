@@ -42,6 +42,11 @@
   <script src="static/js/bulma-carousel.min.js"></script>
   <script src="static/js/bulma-slider.min.js"></script>
   <script src="static/js/index.js"></script>
+  <style>
+    .bold-text{
+    font-weight:bold;
+  }
+  </style>
 </head>
 <body>
 
@@ -54,13 +59,12 @@
             <h1 class="title is-1 publication-title">Full-Spectrum Neuronal Diversity and Stereotypy through Whole Brain Morphometry</h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
-              <span class="author-block"><a>Yufeng Liu, Shengdian Jiang, Yingxin Li, Sujun Zhao, Zhixi Yun, Zuo-Han Zhao,...Lijuan Liu </a></span>
-                <span class="author-block"><a href="https://home.penglab.com/" target="_blank"> & Hanchuan Peng</a><sup>*</sup></span>
+              <span class="author-block"><b>Yufeng Liu, Shengdian Jiang, Yingxin Li, Sujun Zhao, Zhixi Yun,...Lijuan Liu, & Hanchuan Peng<sup>*</sup></b></span>
+                
                   </div>
-
                   <div class="is-size-5 publication-authors">
-                    <span class="author-block">Institute for Brain and Intelligence<br>Southeast University</span>
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Correspondence: h@braintell.org</small></span>
+                    <span class="author-block"><a href="http://braintell.org">Institute for Brain and Intelligence</a><br>Southeast University (China)</span>
+                    <span class="eql-cntrb"><br><sup>*</sup>Correspondence: <a href="mailto:h@braintell.org">h@braintell.org</a></span>
                   </div>
 
                   <div class="column has-text-centered">
@@ -103,6 +107,38 @@
     </div>
   </div>
 </section>
+
+<!-- About -->
+<section class="section hero">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-vcentered is-centered">
+        <h2 class="title is-2">About the Project</h2>
+        <div class="content has-text-justified">
+          <p>
+            <font size="4">
+            Home page for the full-spectrum neuronal morphometry analysis project. <br> <br>
+            
+            This project is led by <b><a href="http://home.penglab.com/">Prof. Hanchuan Peng</a></b> at Southeast University, and it is a collaborative work across several groups worldwide, 
+            with major contributions from <b>Yufeng Liu, Shengdian Jiang, Yingxin Li, Sujun Zhao</b>, and source code refactoring conducted by <b>Yufeng Liu and Qiaobo Gong</b>.<br><br>
+            
+            The project offers a comprehensive framework for extracting and analyzing neuronal morphometry across various scales, ranging from centimeters to micrometers. It also provides tools for cross-scale comparative and integrative analytical paradigm. 
+            The primary modules within the full spectrum sources repository encompass <b>
+            <a href="https://github.com/SEU-ALLEN-codebase/full_spectrum_sources/blob/main/neuron_population/README.md">neuron population</a>, 
+            <a href="https://github.com/SEU-ALLEN-codebase/full_spectrum_sources/blob/main/microenviron/README.md">microenviron</a>, 
+            <a href="https://github.com/SEU-ALLEN-codebase/full_spectrum_sources/blob/main/full_morpho/README.md">full morphology</a>, 
+            <a href="https://github.com/SEU-ALLEN-codebase/full_spectrum_sources/blob/main/bouton/README.md">axonal bouton</a>, 
+            <a href="https://github.com/SEU-ALLEN-codebase/full_spectrum_sources/blob/main/motif/README.md">axonal motif</a> and 
+            <a href="https://github.com/SEU-ALLEN-codebase/full_spectrum_sources/blob/main/arbors/README.md">axonal arbor</a></b>. 
+            Each module includes detailed documentation with step-by-step guidance. These resources aim to support researchers in their studies of neuronal morphometry.
+          </font>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End About -->
 
 <section class="section">
   <div class="container">
@@ -169,10 +205,11 @@
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
+        <h2 class="title is-2">Abstract</h2>
         <div class="content has-text-justified">
-          <p>
+          <p><font size="4">
             We have conducted a large-scale study of whole-brain morphometry, analyzing 3.7 peta-voxels of mouse brain images at the single-cell resolution. This is one of the largest multi-morphometry databases of mammalian brains to date. We spatially registered 205 mouse brains and associated data from 6 BICCN data sources covering 3 major imaging modalities from 5 collaborative projects to the Allen Common Coordinate Framework (CCF) atlas, annotated 3D locations of cell bodies of 227,581 neurons, modeled 15,441 dendritic microenvironments, characterized the full morphology of 1,891 neurons along with their axonal motifs, and detected 2.6 million putative synaptic boutons. Our analysis covers 6 levels of information related to neuronal populations, dendritic microenvironments, single-cell full morphology, sub-neuronal dendritic and axonal arborization, axonal boutons, and structural motifs, along with a quantitative characterization of the diversity and stereotypy of patterns at each level. We identified 16 modules consisting of highly intercorrelated brain regions in 13 functional brain areas corresponding to 314 anatomical regions in CCF. Our analysis revealed the dendritic microenvironment as a powerful method for delineating brain regions of cell types and potential subtypes. We also found that full neuronal morphologies can be categorized into four distinct classes based on spatially tuned morphological features, with substantial cross-areal diversity in apical dendrites, basal dendrites, and axonal arbors, along with quantified stereotypy within cortical, thalamic and striatal regions. The lamination of somas was found to be more effective in differentiating neuron arbors within the cortex. We further analyzed diverging and converging projections of individual neurons in 25 regions throughout the brain and observed branching preferences in the brain-wide and local distributions of axonal boutons. Although it was known that somas of different cell types may mix in close proximity, our analysis also revealed that spatial proximity of neurons could correlate with morphological similarity for both somas and axons at different resolution scales or granularities. Overall, our study provides a comprehensive description of key anatomical structures of neurons and their types, covering a wide range of scales and features. This work represents a significant contribution to our understanding of the organization and function of the mammalian brain.
+          </font>
           </p>
         </div>
       </div>
@@ -255,7 +292,7 @@
   <div class="hero-body">
     <div class="container">
       <!-- Paper video. -->
-      <h2 class="title is-3">Play with the dataset</h2>
+      <h2 class="title is-2">Play with the dataset</h2>
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
           
@@ -270,6 +307,23 @@
 </section>
 <!-- End youtube video -->
 
+<!-- Acknowledgement -->
+<section class="section hero">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-vcentered is-centered">
+        <h2 class="title is-2">Acknowledgement</h2>
+        <div class="content has-text-justified">
+          <p>
+            <font size="4">We thank Yong Yao and NIH for coordination of the BICCN effort in data collection and synergized analysis, Brain Image Library (BIL, www.brainimagelibrary.org) for public sharing of the BICCN database, Josh Huang for sharing raw image data, Yuanyuan Song and LuLu Yin for assistance of the single-neuron annotation, Jiangshan Liang, Luchen Deng, Shize Chen, Fei Xing, Yihang Zhu, Lei Huang and Kaixiang Li for help in tool development, Xuan Zhao, Ye Zhong, Jingzhou Yuan, and another 7 users for help in soma-annotation, and Yiwei Li for assistance of optimizing soma locations. This work was mainly supported by a Southeast University (SEU) initiative of neuroscience awarded to Hanchuan Peng. 
+            </font>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End About -->
 
 <!--BibTex citation -->
   <section class="section" id="BibTeX">
